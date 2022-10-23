@@ -73,4 +73,15 @@ After the loop, the function will return the list discount = [ 50, 100, 150 ] in
     4. i = 3 in this case, which is the same as the length of the array. The loop will end and return the list newArr. <br>
 Therefore, the result will be a list = [ 2, 4, 6 ]. 
 
-18. 
+18. In JS file - part2-question18.js
+    
+19. The output will be: <br>
+    1 <br>
+    4 <br>
+    3 <br>
+    2 <br>
+After called the printNums() function, it will print the number 1 at first since it is the first command. Next, it will called the setTimeout function to print the number 2 delayed for 1 second. So, the function will not print anything yet. Then, the setTimeout funtion will print the number 3 in the next event cycle immediately. Thus, it will not print anything for now. And the function will print the number 4 as there is no delay for line 5. Thus, in the next event cycle, the function will print 3 before 2 as line 3 will delay for 1 second when line 4 can be print immediately. Therefore, the code will output <br>
+    1 <br>
+    4 <br>
+    3 <br>
+    2 <br>

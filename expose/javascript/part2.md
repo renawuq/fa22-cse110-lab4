@@ -63,4 +63,14 @@ After the loop, the function will return the list discount = [ 50, 100, 150 ] in
 
 15. == operator will do the type conversion before comparsion and === will compare the value without conersion. For example, '2' == 2 will return true as '2' will be convert to the integer 2 before the comparsion. But '2' === 2 will return false as '2' is a string and 2 is a number and they have different types. 
 
-16. 
+16. In JS file part2-question16.js
+
+17. The result is [ 2, 4, 6 ]. <br>
+    At first, the function will declare an empty list newArr. And there is a loop that will run for the number of time of the length of array. In this case, array = [ 1,2,3 ] and the length of the array will be 3, which means the loop will be run for 3 times. <br> 
+    1. It will case the function callback, which is doSomething with the input: array[0] = 1. As the doSomething(1) will return 2*num = 2*1 = 2. After we have the result from the doSomething function, newArr will push the value to the list. Thus, newArr = [ 2 ].
+    2. It will called the doSomething function with input array[1] = 2. And doSomething(2) function will return num*2 = 2*2 = 4. newArr will push the value 4 to the list and we will have the list newArr = [ 2, 4 ]. 
+    3. It will called the doSomething function with input array[2] = 3. And doSomething(3) function will return num*3 = 2*3 = 6. newArr will push the value 6 to the list and we will have the list newArr = [ 2, 4, 6 ].
+    4. i = 3 in this case, which is the same as the length of the array. The loop will end and return the list newArr. <br>
+Therefore, the result will be a list = [ 2, 4, 6 ]. 
+
+18. 

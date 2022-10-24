@@ -30,7 +30,7 @@ After run the loop 3 times, the value of i will become 3, which is not less than
 
 9. The code will cause an error with the same reason as question 5, variable i is sitll declared with the keyword let. It is not accessable by the line 11. Thus, the code will cause an error. 
 
-10. The line 12 will print 3, which is the length of the list: prices. As the input prices has 3 eilements, and the const keyword gives its variable the same scope as the let keyword. Since line 12 is in the same block when the variable length was declared, the line 12 has the access for the variable length. Therefore, line 12 will print the number 3. 
+10. The line 12 will print 3, which is the length of the list: prices. As the input prices has 3 elements, and the const keyword gives its variable the same scope as the let keyword. Since line 12 is in the same block when the variable length was declared, the line 12 has the access for the variable length. Therefore, line 12 will print the number 3. 
 
 11. The functin will return the list: [ 50, 100, 150 ], which is the value stored in the list: discounted. At first, the function will declare an empty list and a variable length = 3 with the keyword const. Here is the process in the loop with the input prices[100, 200, 300] and discount = 0.5:
     1. i = 0, discountedPrice = prices[0] *(1-0.5) = 100 *(0.5) = 50; discounted.push(50) => dicounted = [ 50 ].

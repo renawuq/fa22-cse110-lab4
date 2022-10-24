@@ -51,7 +51,7 @@ After the loop, the function will return the list discount = [ 50, 100, 150 ] in
     D. '3null' as '3' is a string and null will be convert into string as well. Thus '3null' is the output. <br>
     E. 4 as true map to 1, so we have 1+3 = 4, 4 is the output. <br>
     F. 0 as false map to 0 and null map to 0 as well. <br>
-    G. '3undefined' as '3' is a string and undefined convert to string as well. Thus, '3undefined' is the output.
+    G. '3undefined' as '3' is a string and undefined convert to string as well. Thus, '3undefined' is the output. <br>
     H. NaN as undefined map to NaN, and '3' map to integer, thus we have 3 - NaN = NaN. Thus, it will output NaN. 
 
 14. A. true, as '2' map to integer and we will have 2>1, which is true. <br>
@@ -61,7 +61,7 @@ After the loop, the function will return the list discount = [ 50, 100, 150 ] in
     E. false, as true will map to integer 1 and 1 is not equal to 2, thus 1 == 2 will output false. <br>
     F. true, as Boolean(2) is true. Since 2 is not 0, NaN, empty string, undefined and null, it will return true. Since true is the same type and same value as true, true === true, it will output true. 
 
-15. == operator will do the type conversion before comparsion and === will compare the value without conersion. For example, '2' == 2 will return true as '2' will be convert to the integer 2 before the comparsion. But '2' === 2 will return false as '2' is a string and 2 is a number and they have different types. 
+15. == operator will do the type conversion before comparsion and === will compare the value without conversion. For example, '2' == 2 will return true as '2' will be convert to the integer 2 before the comparsion. But '2' === 2 will return false as '2' is a string and 2 is a number and they have different types. 
 
 16. In JS file part2-question16.js
 

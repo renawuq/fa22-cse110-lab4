@@ -39,10 +39,10 @@ After run the loop 3 times, the value of i will become 3, which is not less than
     4. i = 3, i = length, which is not less than the length. The loop will end here. 
 After the loop, the function will return the list discount = [ 50, 100, 150 ] in the line 14. Since line 14 is in the same scope with line 3, line 14 has the accessed for it and return the right things. The variable discounted was declared with the keyword const, as the function did not try to change the elements in the discounted beside just calling the push function. Therefore, the code will not cause an error and return the discounted = [ 50, 100, 150 ].
 
-12. A. student["name"] <br>
-    B. student["Grad Year"] <br>
+12. A. student.name <br>
+    B. student['Grad Year'] <br>
     C. student.greeting() <br>
-    D. student["Favorite Teacher"].name <br>
+    D. student['Favorite Teacher'].name <br>
     E. student.courseLoad[0]
 
 13. A. '32' as '3' is a string and 2 is a integer. And integers map to their exact string representation. Thus, it will output '32'. <br>

@@ -55,7 +55,7 @@ After the loop, the function will return the list discount = [ 50, 100, 150 ] in
     H. NaN as undefined map to NaN, and '3' map to integer, thus we have 3 - NaN = NaN. Thus, it will output NaN. 
 
 14. A. true, as '2' map to integer and we will have 2>1, which is true. <br>
-    B. false, as '2' map to integer 2 and '12' map to integer 12. We will have 2<12, which is false. <br>
+    B. false, as "2" will be greater than "12", because (alphabetically) 1 is less than 2. <br>
     C. true, as '2' map to integer 2, we will check if 2 equals to 2, which is true. <br>
     D. false, as === checks the equality without tye conversion. As 2 is integer and '2' is string, they are different type, and it will return false. <br>
     E. false, as true will map to integer 1 and 1 is not equal to 2, thus 1 == 2 will output false. <br>

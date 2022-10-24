@@ -1,3 +1,3 @@
-1. The datatype of the result is a string instead of a integer. Therefore, when num1 = 1 and num2 = 2, num1+num2 = '1' + '2' = '12', which will output as a stirng. We need to make sure the function knows the input will be 2 integers to get the correct output. 
+1. The datatype of the result is a string instead of a integer. Therefore, when num1 = 1 and num2 = 2, num1+num2 = '1' + '2' = '12', which will output as a string. We need to make sure the function knows the input will be 2 integers to get the correct output. 
    
 2. In order to get the correct answer, we need to make sure the function knows we want to do calculation with the integer instead of a string. Therefore, using Number() function to convert strng into integer. Therefore, the result will become integer as it is the sum of 2 integers. 
